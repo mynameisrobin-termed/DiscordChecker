@@ -178,7 +178,7 @@ def main():
     ]
     
     # Oder lade Proxies aus einer Datei
-    # PROXIES = load_proxies_from_file("proxies.txt")
+    PROXIES = load_proxies_from_file("proxies.txt")
     # ================================
     
     checker = DiscordUsernameChecker(proxy_list=PROXIES)
